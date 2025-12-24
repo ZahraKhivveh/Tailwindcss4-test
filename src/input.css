@@ -1,1 +1,6 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme{
+    --color-mary : #f2f ;
+    --text-22: 120px;
+}
